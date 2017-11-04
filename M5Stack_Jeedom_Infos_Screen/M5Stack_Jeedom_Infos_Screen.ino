@@ -1,32 +1,7 @@
 /*
  * IoT Display for Jeedom based on M5Stack dev platform.
  *
- *    Required hardware:
- * M5Stack core.
- *    Required library:
- * M5Stack : https://github.com/m5stack/M5Stack
- *
- *    Behavior:
- * The M5Stack will get the information for the Jeedom Server at a specified
- * rate (QUERY_TIME) and display them. The LCD is set to timeout after a certain
- * time set by LCD_TIMEOUT to keep the LCD from suffering of Burn-in image or
- * premature death of the backlight. You can still wake the LCD by pushing
- * the B button (middle) and it will shut itself off after the same amount of time.
- *
- * WIFI_HOSTNAME: The name broadcasted on the network
- * WIFI_SSID: Wifi network name.
- * WIFI_PASS: Wifi password.
- * JEEDOM_IP: The address of the Jeedom server.
- * JEEDOM_API: Your Jeedom API key.
- * QUERY_TIME: Time between GET command to Jeedom server (in seconds).
- * ID_TEMP: The command ID for the temperature.
- * ID_HUMI: The command ID for the humidity.
- * ID_LAMP: The command ID for the lamp luminosity.
- * LCD_BRIGHT: LCD Brightness (from 0 to 100%).
- * LCD_TIMEOUT: Time to keep the LCD alive (in seconds).
- * USE_BG: Use the background image on the MicroSD card.
- * BG_BLANK: Name of the blank background (for WiFi connexion).
- * BG_USE: Name of the used background (for values with icons).
+ * See: https://github.com/m600x/M5Stack/tree/master/M5Stack_Jeedom_Infos_Screen
 */
 
 #define	WIFI_HOSTNAME		"hostname"
