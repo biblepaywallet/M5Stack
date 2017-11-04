@@ -1,9 +1,15 @@
 **M5Stack_Jeedom_Infos_Screen**
 ------
 
+#### Hardware required:
+* M5Stack
+
+#### Library needed:
+* [M5Stack](https://github.com/m5stack/M5Stack)
+
 Settings are as follow:
 
-|Settings|Description|
+|Settings     |Description|
 | ----------- | --- |
 |WIFI_HOSTNAME|The name broadcasted on the network
 |WIFI_SSID    |Network name
